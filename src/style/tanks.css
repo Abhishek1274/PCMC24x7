@@ -1,0 +1,116 @@
+.tank h3 {
+    color: black
+}
+
+.border-left {
+    border-left: 1px solid #555555;
+    padding-left: 2px;
+}
+
+.logout {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-logout, .btn-login {
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #555555;
+    background-color: #f0f0f0;
+    transition: 0.3s linear;
+    box-shadow: 1px 1px 2px 0px black;
+}
+
+.btn-logout:hover, .btn-login:hover {
+    background-color: #555555;
+    color: white
+}
+
+.tank-status {
+    width: 100%;
+    height: 969px;
+    background-color: #3a8287;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.tank-status::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.tank-status::-webkit-scrollbar
+{
+	width: 5px!important;
+	background-color: #F5F5F5;
+}
+
+.tank-status::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.tank-status h3 {
+    position: absolute;
+}
+
+.tank-status .valvu-status {
+    position: absolute;
+    width: 180px;
+    background-color: #e0e0e0;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.tank-status .valvu-status .valvu-status-title {
+    background-color: silver;
+}
+
+.tank-status .valvu-status .valvu-status-value {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid silver;
+}
+
+.tank-status .valvu-status .valvu-status-value span:first-child {
+    color: blue;
+}
+
+.tank-status .valvu-name {
+    position: absolute;
+    width: 200px;
+    font-size: xx-small;
+    background-color: silver;
+    height: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.tank-status button {
+    width: 150px;
+    height: 40px;
+    border: 1px solid silver;
+    background-color: blue!important;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.1s linear;
+}
+
+.tank-status button:hover {
+    background-color: transparent!important;
+    color: blue;
+}
+
+.tank-status img {
+    position: absolute;
+}

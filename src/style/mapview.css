@@ -1,0 +1,110 @@
+header {
+    background-color: #c1ebff;
+}
+
+.btn-shutdown {
+    width: 100%;
+    border: 1px solid #555555;
+    background-color: #f0f0f0;
+    cursor: pointer!important;
+    color: black;
+    font-weight: 700;
+    font-size: 19px;
+    transition: 0.3s linear;
+    box-shadow: 1px 1px 2px 0px black;
+}
+
+.btn-shutdown:hover {
+    background-color: #555555;
+    color: white
+}
+
+.header-up {
+    display: flex;
+    gap: 10px;
+}
+
+.header-up button {
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #555555;
+    background-color: #f0f0f0;
+    transition: 0.3s linear;
+    box-shadow: 1px 1px 2px 0px black;
+}
+
+.header-up button:hover {
+    background-color: #555555;
+    color: white
+}
+
+h5 {
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #0000ff;
+    font-family: sans-serif;
+}
+
+h3 {
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #0000ff;
+    font-family: sans-serif;
+    margin-top: 0.3rem;
+}
+
+.areas-list {
+    padding-top: 3px;
+    gap: 5px;
+    padding-bottom: 5px;
+    background-color: silver;
+}
+
+.areas-list a,.areas-list button {
+    flex-grow: 1;
+    font-weight: 800;
+    border: none;
+    transition: 0.3s linear;
+    box-shadow: 1px 1px 2px 0px black;
+    background: rgb(214,214,214);
+    background: linear-gradient(0deg, rgba(214,214,214,1) 0%, rgba(255,255,255,1) 51%, rgba(214,214,214,1) 100%);
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    line-height: 1;
+}
+
+.areas-list .btn-area {
+    font-weight: 700!important;
+    color: #555555;
+}
+
+.areas-list .btn-area:hover {
+    transform: translateY(-2px)
+}
+
+.areas-list .btn-area.active {
+    border: 1px solid lime;
+    box-shadow: none;
+}
+
+.areas-list .btn-menu {
+    background-color: #bbc7db;
+    color: black;
+}
+
+.areas-list .btn-menu:hover {
+    background-color: #f0f0f0;
+    color: #3a8287;
+}
+
+th {
+    border: 1px solid black;
+    font-weight: 700;
+}
